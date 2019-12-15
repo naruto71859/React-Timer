@@ -1,0 +1,56 @@
+
+.container{
+ width:500px;
+ height:100px;
+ margin-left: 400px;
+}
+.Timer{
+margin: 20px;
+font-size: 50px;
+display: flex;
+justify-content: center;
+height: 200px;
+
+}
+.Timer span{
+  margin:15px;
+}
+.time-details{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-size: 20;
+}
+.Hours{
+  font-size: 30px;
+margin: 0 20px;
+}
+.Minutes{
+  font-size: 30px;
+margin: 0 20px ; 
+}
+.Seconds{
+  font-size: 30px;
+margin: 0 20px;
+}
+.btn-start{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(204, 231, 222);
+  margin: 20px 10px;
+  font-size:20px
+}
+.btn-reset{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(204, 231, 222);
+  margin: 20px 10px;
+  font-size:20px
+}
+.lesboutons{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
