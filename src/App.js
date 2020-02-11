@@ -13,16 +13,16 @@ export default class App extends Component {
   }
   startStop = () => {
     if (this.state.isrunning) {
-      clearInterval(interval);
+      clearInterval(this.interval);
       this.setState({isrunning:false})
     } else {
-       const interval = setInterval(() => {
+       this.interval = setInterval(() => {
         this.setState({ currentime: this.state.currentime + 1 , isrunning:true});
       }, 1000);
     }
   };
   handelReset = () => {
-    clearInterval(interval);
+    clearInterval(this.interval);
     this.setState({isrunning:false , currentime:0})  };
 
   render() {
